@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Medhabi Project Achievement</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Noto Sans Bengali', sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+
+.poster{
+
+width:420px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(12px);
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.2);
+box-shadow:0 20px 60px rgba(0,0,0,0.4);
+text-align:center;
+padding-bottom:30px;
+
+}
+
+.header{
+
+background:linear-gradient(90deg,#d4af37,#f9e076);
+color:#111;
+font-weight:700;
+font-size:32px;
+padding:20px;
+letter-spacing:1px;
+
+}
+
+.photo{
+
+width:200px;
+height:200px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid gold;
+margin-top:25px;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+
+}
+
+.name{
+
+font-size:26px;
+font-weight:700;
+margin-top:18px;
+color:white;
+
+}
+
+.dept{
+
+color:#e4e4e4;
+margin-top:6px;
+font-size:16px;
+
+}
+
+.results{
+
+margin:20px;
+padding:15px;
+background:rgba(255,255,255,0.1);
+border-radius:12px;
+color:white;
+font-size:18px;
+line-height:1.7;
+
+}
+
+.highlight{
+
+color:#ffd700;
+font-weight:700;
+
+}
+
+.extra{
+
+margin-top:10px;
+color:#ddd;
+font-size:15px;
+
+}
+
+.footer{
+
+margin-top:20px;
+font-size:16px;
+color:#f9e076;
+font-weight:600;
+
+}
+
+.glow{
+
+animation:glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+from{
+box-shadow:0 0 10px gold;
+}
+
+to{
+box-shadow:0 0 25px gold;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="poster glow">
+
+<div class="header">
+অভিনন্দন
+</div>
+
+<img src="rafi.jpg" class="photo">
+
+<div class="name">
+নওশাদ ইব্রাহিম রাফি
+</div>
+
+<div class="dept">
+মার্কেটিং বিভাগ<br>
+জগন্নাথ বিশ্ববিদ্যালয়
+</div>
+
+<div class="results">
+
+প্রথম সেমিস্টার:
+<span class="highlight">3.70</span><br>
+
+দ্বিতীয় সেমিস্টার:
+<span class="highlight">3.84</span><br>
+
+তৃতীয় সেমিস্টার:
+<span class="highlight">4.00</span>
+
+</div>
+
+<div class="extra">
+
+৫ম ফ্লোরের শিক্ষার্থী<br>
+আইডি: ২৫০১১১৫১
+
+</div>
+
+<div class="footer">
+
+মেধাবী প্রজেক্ট
+
+</div>
+
+</div>
+
+</body>
+</html>
